@@ -1,0 +1,26 @@
+form div {
+  margin: 5px;
+}
+
+form {
+  width: 50%;
+  background-color: rgb(199, 199, 199);
+  border: 3px solid #f00;
+}
+
+button {
+  background-color: #fff;
+  border: 3px solid #f00;
+  border-top: 10px solid brown;
+}
+
+.rodape {
+  text-align: center;
+}
+
+.redonda {
+  background-color: cornflowerblue;
+  margin: 20px;
+  width: 40px;
+  height: 40px;
+}
