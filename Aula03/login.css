@@ -27,3 +27,8 @@ button {
   border-radius: 50%;
   border-top: 5px solid cornflowerblue;
 }
+
+.container {
+  display: flex;
+  justify-content: center;
+}
