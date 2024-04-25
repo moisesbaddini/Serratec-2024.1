@@ -1,0 +1,17 @@
+p {
+  color: rebeccapurple;
+}
+
+#id {
+  color: brown;
+}
+
+.classe {
+  color: green;
+}
+
+/* Combinador de filhos */
+
+div > p {
+  background-color: blue;
+}
