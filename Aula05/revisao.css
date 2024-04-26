@@ -1,0 +1,49 @@
+.fixa {
+  position: sticky;
+  background-color: coral;
+  height: 25px;
+  width: 25px;
+  left: 90%;
+  top: 100px;
+}
+
+p {
+  width: 50%;
+}
+
+input[required] {
+  background-color: aqua;
+}
+
+input[placeholder] {
+  background-color: aquamarine;
+}
+
+p + p {
+  background-color: bisque;
+  box-shadow: 0px 0px 10px 6px;
+  border: 2px solid brown;
+  padding: 5px;
+}
+
+p:hover {
+  background-color: blueviolet;
+}
+
+p::first-letter {
+  font-family: "Jacquard 12 Charted", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20pt;
+}
+
+strong {
+  text-shadow: 7px 4px 6px;
+  margin: 50px;
+}
+
+#topo {
+  font-family: "Jacquard 12 Charted", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
