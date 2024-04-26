@@ -12,6 +12,19 @@ p {
 
 /* Combinador de filhos */
 
-div > p {
-  background-color: blue;
+p > strong {
+  background-color: rgba(0, 255, 255, 0.5);
+  opacity: 0.1;
+}
+
+/* Combinador irmãos geral - qualquer elemento após o primeiro */
+
+p ~ strong {
+  background-color: aquamarine;
+}
+
+/* Combinador irmão adjacente - vizinho imediato */
+
+p + strong {
+  background-color: rgba(255, 0, 0, 0.521);
 }

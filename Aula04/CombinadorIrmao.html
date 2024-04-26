@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tabela</title>
+
+    <style>
+      table,
+      tr,
+      th,
+      td {
+        border: 1px solid brown;
+      }
+      /* comb. irmão adjacente */
+      th + td {
+        background-color: darkmagenta;
+      }
+
+      .pacoca {
+        width: 150px;
+        height: 150px;
+        background-image: url("https://media.discordapp.net/attachments/1215394323315560468/1233182848916263042/zepacocas.png?ex=662c2a86&is=662ad906&hm=6891e592043274998eb601233c61708a2a05419d66299b5ed3e22ba0428bd17c&=&format=webp&quality=lossless&width=550&height=309");
+        background-position: center;
+        background-size: cover;
+      }
+
+      #foto {
+        margin-top: 20px;
+        border: 3px dashed brown;
+        width: 150px;
+      }
+
+      #foto:hover {
+        opacity: 0.3;
+      }
+
+      div + div {
+        background-image: linear-gradient(
+          90deg,
+          rgba(2, 0, 36, 1) 0%,
+          rgba(9, 9, 121, 1) 35%,
+          rgba(0, 212, 255, 1) 100%
+        );
+      }
+    </style>
+  </head>
+  <body>
+    <table>
+      <tr>
+        <th>Nome</th>
+        <th>Idade</th>
+        <th>Profissão</th>
+      </tr>
+      <tr>
+        <th>Ted</th>
+        <td>22</td>
+        <td>Estudante</td>
+      </tr>
+      <tr>
+        <th>Ralf</th>
+        <td>26</td>
+        <td>Designer</td>
+      </tr>
+      <tr>
+        <th>Jim</th>
+        <td>54</td>
+        <td>Ator</td>
+      </tr>
+      <tr>
+        <th>Albert</th>
+        <td>27</td>
+        <td>Escritor</td>
+      </tr>
+    </table>
+
+    <img
+      src="https://media.discordapp.net/attachments/1215394323315560468/1233182848916263042/zepacocas.png?ex=662c2a86&is=662ad906&hm=6891e592043274998eb601233c61708a2a05419d66299b5ed3e22ba0428bd17c&=&format=webp&quality=lossless&width=550&height=309"
+      alt="imagem"
+      id="foto"
+    />
+
+    <div class="pacoca">
+      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Impedit aliquid modi omnis ullam, itaque, reprehenderit,
+      qui labore quaerat et sapiente facere fugit!
+    </div>
+    <div>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque maiores culpa dolore, iusto fuga dignissimos, a
+      voluptate dolorem reiciendis sint officia, illum veritatis ipsam maxime autem error rerum animi distinctio.
+    </div>
+  </body>
+</html>

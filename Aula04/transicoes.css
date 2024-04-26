@@ -1,0 +1,31 @@
+img {
+  width: 60%;
+}
+
+img:hovernao {
+  opacity: 0.1;
+  width: 80%;
+  transition-delay: 10ms;
+  transition-duration: 3s;
+  content: url("https://www.tribunapr.com.br/wp-content/uploads/2022/10/05115944/McFlurry-Brasil-770x440.jpg");
+}
+
+.pacoca {
+  position: relative;
+  transform: rotate(180deg);
+  transition-duration: 10s;
+}
+.volta {
+  position: relative;
+  transform: rotate(0);
+  transition-duration: 10s;
+}
+
+.sair {
+  border: 1px solid black;
+  font-size: 12px;
+  text-decoration: none;
+  padding: 4px;
+  border-radius: 2px;
+  color: #000;
+}
