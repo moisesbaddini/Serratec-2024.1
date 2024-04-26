@@ -27,7 +27,8 @@ p + p {
 }
 
 p:hover {
-  background-color: blueviolet;
+  background-color: navajowhite;
+  cursor: pointer;
 }
 
 p::first-letter {
