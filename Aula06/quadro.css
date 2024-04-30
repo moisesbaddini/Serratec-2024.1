@@ -18,6 +18,7 @@ li {
   font-family: Arial, Helvetica, sans-serif;
   box-shadow: 3px 3px 6px;
   text-align: center;
+  font-size: 14px;
 }
 
 .nova {
@@ -26,8 +27,9 @@ li {
   padding: 10px;
 }
 
+/*
 li:hover {
-  animation: rodar 3s infinite linear;
+  animation: rodar 2s infinite linear;
 }
 
 @keyframes rodar {
@@ -39,3 +41,4 @@ li:hover {
     transform: rotate(360deg);
   }
 }
+*/

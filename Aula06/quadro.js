@@ -1,7 +1,10 @@
 const container = document.getElementById("container");
 
 const titulo = document.createElement("h2");
-titulo.textContent = "Tarefas da equipe";
+titulo.textContent = "Tarefas da equipe que a equipe fez";
+
+titulo.textContent = titulo.textContent.replaceAll("equipe", "galera");
+
 container?.appendChild(titulo);
 
 const form = `
@@ -21,7 +24,7 @@ container?.appendChild(area);
 function notaNota(texto) {
   const item = document.createElement("li");
   area?.appendChild(item);
-  item.textContent = texto;
+  item.innerHTML = `<button onclick="excluir(event)">🗑️</button><div>${texto} | ${texto.length}</div>`;
 }
 
 const lista = [];
@@ -50,4 +53,9 @@ function criarNota() {
 
   lista.push(valor);
   notaNota(valor);
+}
+
+function excluir(evento) {
+  const li = evento.target.parentElement;
+  li.remove();
 }
