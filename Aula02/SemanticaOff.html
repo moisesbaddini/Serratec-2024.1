@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Elementos sem semântica</title>
+    <style>
+      h2 {
+        color: grey;
+      }
+      div {
+        text-align: center;
+        background-color: chocolate;
+      }
+      #fim {
+        font-size: 10pt;
+      }
+      #quadrado {
+        width: 100px;
+      }
+    </style>
+  </head>
+  <body>
+    <h2>Elementos sem semântica</h2>
+    <em>Não possuem significado, usados apenas para fazer divisões no conteúdo</em>
+
+    <div style="background-color: blue; color: wheat">divisão em bloco pq</div>
+    <p>
+      várias frases
+      <span style="background-color: brown">divisão inline</span> em seguida
+    </p>
+    <div>Texto</div>
+
+    <h2 id="fim">Fim</h2>
+
+    <div id="quadrado">&nbsp;</div>
+
+    <script>
+      // alert("Hello Serratec");
+    </script>
+    <script src="_semantica.js"></script>
+  </body>
+</html>

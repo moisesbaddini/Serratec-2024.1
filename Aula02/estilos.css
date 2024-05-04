@@ -1,0 +1,17 @@
+div {
+  background-color: coral;
+}
+
+.grupo_a {
+  text-align: center;
+}
+
+.grupo_b {
+  text-align: right;
+}
+
+.grupo_c {
+  font-weight: bold;
+  font-style: italic;
+  text-align: center;
+}

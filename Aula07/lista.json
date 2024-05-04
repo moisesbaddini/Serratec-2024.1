@@ -1,0 +1,12 @@
+{
+  "nome": "zepa",
+  "numero": 15,
+  "lista": [
+    1,
+    2,
+    3,
+    {
+      "modelo": "fusca"
+    }
+  ]
+}

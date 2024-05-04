@@ -1,0 +1,12 @@
+
+POST https://64cc440c2eafdcdc8519bbb8.mockapi.io/login
+Content-Type: application/json
+
+{
+  "aluno": "Zépa",
+  "curso": "JavaScript",
+  "aula": 9
+}
+
+###
+GET https://64cc440c2eafdcdc8519bbb8.mockapi.io/login
